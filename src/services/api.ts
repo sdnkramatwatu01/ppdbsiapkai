@@ -82,7 +82,7 @@ const getInitialMockSettings = (): AppSettings => {
     koordinatSekolah: "-6.200000, 106.816666", // Default to Jakarta
     tanggalCutoffUsia: "", // Tanggal ditetapkan cutoff usia
     sambutanKepalaSekolah: "Selamat datang di website resmi PPDB SD Negeri Kramatwatu 1. Kami berkomitmen untuk memberikan pelayanan pendidikan terbaik bagi putra-putri Anda. Mari bergabung bersama kami untuk mencetak generasi penerus bangsa yang cerdas, berakhlak mulia, dan berprestasi.",
-    fotoKepalaSekolah: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=200&auto=format&fit=crop",
+    fotoKepalaSekolah: "https://6a270a0f494af3e820806ab2.imgix.net/WhatsApp%20Image%202026-06-09%20at%2001.20.31.jpeg?auto=format&fit=fill&w=384",
     visiSekolah: "Menjadi sekolah dasar unggulan yang menghasilkan lulusan berakhlak mulia, cerdas, terampil, dan berwawasan lingkungan.",
     misiSekolah: "1. Menyelenggarakan pembelajaran yang aktif, inovatif, kreatif, efektif, dan menyenangkan (PAIKEM).\n2. Menanamkan nilai-nilai agama dan budi pekerti luhur dalam kehidupan sehari-hari.\n3. Mengembangkan potensi, bakat, dan minat siswa melalui kegiatan ekstrakurikuler.\n4. Menciptakan lingkungan sekolah yang bersih, sehat, dan asri.",
     formFields: [
