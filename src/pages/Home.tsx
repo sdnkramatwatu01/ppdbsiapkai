@@ -161,7 +161,7 @@ export default function Home() {
                 Sambutan Kepala Sekolah
               </h2>
               <div className="prose prose-lg text-slate-600">
-                {settings?.sambutanKepalaSekolah?.split('\n').map((paragraph, idx) => (
+                {settings?.SambutanKepalaSekolah?.split('\n').map((paragraph, idx) => (
                   <p key={idx} className="mb-4">
                     {paragraph}
                   </p>
