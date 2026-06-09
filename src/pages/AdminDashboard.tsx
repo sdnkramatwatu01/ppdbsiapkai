@@ -849,7 +849,7 @@ export default function AdminDashboard() {
                       <div className="md:col-span-2">
                         <label className={cn("block text-sm font-medium mb-1", isDarkMode ? "text-slate-300" : "text-slate-700")}>Sambutan Kepala Sekolah</label>
                         <textarea
-                          value={localSettings.sambutanKepalaSekolah || ''}
+                          value={localSettings.sambutanKepalaSekolah || 'Assalamu’alaikum Warahmatullahi Wabarakatuh, Selamat datang di SDN Kramatwatu 1sekolah kren tempat bertumbuhnya generasi cerdas, berkarakter, dan berakhlak mulia. Kepada Bapak, Ibu, dan para calon wali murid yang kami hormati, kami mengucapkan terima kasih yang sebesar-besarnya atas kepercayaan dan ketertarikan Anda untuk menitipkan putra-putri tercinta di sekolah kami. Memilih sekolah adalah langkah awal yang sangat penting, dan kami merasa terhormat menjadi salah satu pertimbangan utama Anda. Di SDN Kramatwatu 1, kami percaya bahwa setiap anak adalah pribadi yang unik dan memiliki potensi luar biasa. Komitmen kami bukan hanya sekadar mentransfer ilmu pengetahuan, tetapi juga mengasah bakat, membangun karakter, serta menciptakan lingkungan belajar yang aman, nyaman, dan menyenangkan. Bersama para pengajar yang berdedikasi, kami siap mendampingi putra-putri Anda untuk menjelajahi dunia belajar dengan penuh rasa ingin tahu. Pintu kami terbuka lebar untuk menyambut kehadiran keluarga baru. Mari bersama-sama kita sinergikan langkah, berkolaborasi antara sekolah dan orang tua, demi mengantarkan anak-anak kita menuju masa depan yang gemilang. Selamat mengikuti proses pendaftaran. Jika ada hal yang ingin ditanyakan, seluruh panitia PPDB kami akan dengan senang hati membantu Anda. Wassalamu’alaikum Warahmatullahi Wabarakatuh'}
                           onChange={e => setLocalSettings({...localSettings, sambutanKepalaSekolah: e.target.value})}
                           rows={5}
                           placeholder="Masukkan kata sambutan kepala sekolah..."
@@ -859,7 +859,7 @@ export default function AdminDashboard() {
                       <div className="md:col-span-2">
                         <label className={cn("block text-sm font-medium mb-1", isDarkMode ? "text-slate-300" : "text-slate-700")}>Visi Sekolah</label>
                         <textarea
-                          value={localSettings.visiSekolah || ''}
+                          value={localSettings.visiSekolah || 'Terwujudnya peserta didik yang BERSIH (Berkarakter, Religius, Sehat, Inovatif, Hebat dalam prestasi)'}
                           onChange={e => setLocalSettings({...localSettings, visiSekolah: e.target.value})}
                           rows={3}
                           placeholder="Masukkan visi sekolah..."
@@ -869,7 +869,7 @@ export default function AdminDashboard() {
                       <div className="md:col-span-2">
                         <label className={cn("block text-sm font-medium mb-1", isDarkMode ? "text-slate-300" : "text-slate-700")}>Misi Sekolah</label>
                         <textarea
-                          value={localSettings.misiSekolah || ''}
+                          value={localSettings.misiSekolah || 'Mewujudkan Generasi Religius, Sehat, Inovatif dan Berprestasi'}
                           onChange={e => setLocalSettings({...localSettings, misiSekolah: e.target.value})}
                           rows={5}
                           placeholder="1. Misi pertama&#10;2. Misi kedua"
@@ -891,7 +891,7 @@ export default function AdminDashboard() {
                           value={localSettings.panduanJudul || ''}
                           onChange={e => setLocalSettings({...localSettings, panduanJudul: e.target.value})}
                           className={cn("w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500", isDarkMode ? "bg-slate-900 border-slate-700 text-white" : "bg-white border-slate-300")}
-                          placeholder="Panduan Pendaftaran PPDB"
+                          placeholder="Panduan Pendaftaran SPMB"
                         />
                       </div>
                       <div>
@@ -1092,7 +1092,7 @@ export default function AdminDashboard() {
                         <label className={cn("block text-sm font-medium mb-1", isDarkMode ? "text-slate-300" : "text-slate-700")}>NIP Kepala Sekolah</label>
                         <input
                           type="text"
-                          value={localSettings.nipKepalaSekolah || ''}
+                          value={localSettings.nipKepalaSekolah || '19770706 200801 2 010'}
                           onChange={e => setLocalSettings({...localSettings, nipKepalaSekolah: e.target.value})}
                           className={cn("w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500", isDarkMode ? "bg-slate-900 border-slate-700 text-white" : "bg-white border-slate-300")}
                           placeholder="Contoh: 19700101 199512 1 001"
