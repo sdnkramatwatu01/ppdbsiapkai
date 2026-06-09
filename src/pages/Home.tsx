@@ -117,7 +117,7 @@ export default function Home() {
             {[
               {
                 icon: <BookOpen className="text-blue-500" size={32} />,
-                title: "Kurikulum Modern",
+                title: "Kurikulum Merdeka",
                 desc: "Menerapkan kurikulum merdeka belajar yang adaptif dengan perkembangan zaman dan teknologi."
               },
               {
@@ -193,14 +193,14 @@ export default function Home() {
               <div className="mb-8">
                 <h4 className="text-lg font-semibold text-slate-800 mb-3">Visi</h4>
                 <p className="text-slate-600 italic bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                  "{settings?.visiSekolah || 'Visi sekolah belum diatur.'}"
+                  "{settings?.visiSekolah || 'Terwujudnya peserta didik yang BERSIH (Berkarakter, Religius, Sehat, Inovatif, Hebat dalam Prestasi.'}"
                 </p>
               </div>
               
               <div>
                 <h4 className="text-lg font-semibold text-slate-800 mb-3">Misi</h4>
                 <ul className="space-y-3">
-                  {(settings?.misiSekolah ? settings.misiSekolah.split('\n') : []).map((misi, idx) => (
+                  {(settings?.misiSekolah ? settings.misiSekolah.split('Religius, Sehat, Inovatif dan Berprestasi') : []).map((misi, idx) => (
                     <li key={idx} className="flex items-start gap-3 text-slate-600">
                       <CheckCircle2 className="text-green-500 shrink-0 mt-0.5" size={20} />
                       <span>{misi.replace(/^\d+\.\s*/, '')}</span>
