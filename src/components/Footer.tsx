@@ -19,7 +19,7 @@ export default function Footer() {
                 </div>
               )}
               <span className="font-bold text-xl tracking-tight text-white">
-                {settings?.namaSekolah || 'SDN Harapan Bangsa'}
+                {settings?.namaSekolah || 'SD NEGERI KRAMATWATU 1'}
               </span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-md">
@@ -45,18 +45,18 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-blue-500 shrink-0" />
-                <span>{settings?.telepon || '(021) 1234-5678'}</span>
+                <span>{settings?.telepon || '+62 812-1801-0605'}</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-blue-500 shrink-0" />
-                <span>{settings?.email || 'info@sdnharapanbangsa.sch.id'}</span>
+                <span>{settings?.email || 'sdnkraatwatu01@gmail.com'}</span>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="mt-12 pt-8 border-t border-slate-800 text-center text-sm text-slate-500 flex flex-col md:flex-row justify-between items-center">
-          <p>&copy; {new Date().getFullYear()} {settings?.namaSekolah || 'SDN Harapan Bangsa'}. Hak Cipta Dilindungi.</p>
+          <p>&copy; {new Date().getFullYear()} {settings?.namaSekolah || 'SD NEGERI KRAMATWATU 1'}. Hak Cipta Dilindungi.</p>
           <p className="mt-2 md:mt-0">Sistem PPDB Online Terintegrasi</p>
         </div>
       </div>
