@@ -161,16 +161,7 @@ export default function Home() {
                 Sambutan Kepala Sekolah
               </h2>
               <div className="prose prose-lg text-slate-600">
-                {`Assalamu’alaikum Warahmatullahi Wabarakatuh,
-Selamat datang di SDN Kramatwatu 1sekolah kren tempat bertumbuhnya generasi cerdas, berkarakter, dan berakhlak mulia.
-Kepada Bapak, Ibu, dan para calon wali murid yang kami hormati, kami mengucapkan terima kasih yang sebesar-besarnya atas kepercayaan dan ketertarikan Anda untuk menitipkan putra-putri tercinta di sekolah kami. Memilih sekolah adalah langkah awal yang sangat penting, dan kami merasa terhormat menjadi salah satu pertimbangan utama Anda.
-Di SDN Kramatwatu 1, kami percaya bahwa setiap anak adalah pribadi yang unik dan memiliki potensi luar biasa. Komitmen kami bukan hanya sekadar mentransfer ilmu pengetahuan, tetapi juga mengasah bakat, membangun karakter, serta menciptakan lingkungan belajar yang aman, nyaman, dan menyenangkan. Bersama para pengajar yang berdedikasi, kami siap mendampingi putra-putri Anda untuk menjelajahi dunia belajar dengan penuh rasa ingin tahu.
-Pintu kami terbuka lebar untuk menyambut kehadiran keluarga baru. Mari bersama-sama kita sinergikan langkah, berkolaborasi antara sekolah dan orang tua, demi mengantarkan anak-anak kita menuju masa depan yang gemilang.
-Selamat mengikuti proses pendaftaran. Jika ada hal yang ingin ditanyakan, seluruh panitia PPDB kami akan dengan senang hati membantu Anda.
-*Wassalamu’alaikum Warahmatullahi Wabarakatuh
-Kepala SDN Kramatwatu 1
-Maemunah
-NIP. 197707062008012010
+                {`Assalamu’alaikum Warahmatullahi Wabarakatuh, Selamat datang di SDN Kramatwatu 1sekolah kren tempat bertumbuhnya generasi cerdas, berkarakter, dan berakhlak mulia. Kepada Bapak, Ibu, dan para calon wali murid yang kami hormati, kami mengucapkan terima kasih yang sebesar-besarnya atas kepercayaan dan ketertarikan Anda untuk menitipkan putra-putri tercinta di sekolah kami. Memilih sekolah adalah langkah awal yang sangat penting, dan kami merasa terhormat menjadi salah satu pertimbangan utama Anda. Di SD Kramatwatu 1, kami percaya bahwa setiap anak adalah pribadi yang unik dan memiliki potensi luar biasa. Komitmen kami bukan hanya sekadar mentransfer ilmu pengetahuan, tetapi juga mengasah bakat, membangun karakter, serta menciptakan lingkungan belajar yang aman, nyaman, dan menyenangkan. Bersama para pengajar yang berdedikasi, kami siap mendampingi putra-putri Anda untuk menjelajahi dunia belajar dengan penuh rasa ingin tahu. Pintu kami terbuka lebar untuk menyambut kehadiran keluarga baru. Mari bersama-sama kita sinergikan langkah, berkolaborasi antara sekolah dan orang tua, demi mengantarkan anak-anak kita menuju masa depan yang gemilang. Selamat mengikuti proses pendaftaran. Jika ada hal yang ingin ditanyakan, seluruh panitia PPDB kami akan dengan senang hati membantu Anda. *Wassalamu’alaikum Warahmatullahi Wabarakatuh
   .split('\n')
   .map((paragraph, idx) => (
     <p key={idx} className="mb-4">
