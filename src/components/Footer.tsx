@@ -31,7 +31,7 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Tautan Cepat</h3>
             <ul className="space-y-2 text-sm">
               <li><Link to="/" className="hover:text-blue-400 transition-colors">Beranda</Link></li>
-              <li><Link to="/daftar" className="hover:text-blue-400 transition-colors">Pendaftaran PPDB</Link></li>
+              <li><Link to="/daftar" className="hover:text-blue-400 transition-colors">Pendaftaran SPMB</Link></li>
               <li><Link to="/admin" className="hover:text-blue-400 transition-colors">Login Admin</Link></li>
             </ul>
           </div>
@@ -41,7 +41,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-blue-500 shrink-0 mt-0.5" />
-                <span>{settings?.alamat || 'Jl. Pendidikan No. 123, Kota Pelajar, Indonesia 12345'}</span>
+                <span>{settings?.alamat || 'Jl. Raya Serang Cilegon Km.8 No.88 Kramatwatu'}</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-blue-500 shrink-0" />
