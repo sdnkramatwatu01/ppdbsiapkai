@@ -198,12 +198,12 @@ export default function Home() {
               </div>
               
               <div>
-                <h4 className="text-lg font-semibold text-slate-800 mb-3">Misi</h4>
+                <h4 className="text-lg font-semibold text-slate-800 mb-3">Misi: Religius, Sehat, Inovatif dan Berprestasi</h4>
                 <ul className="space-y-3">
                   {(settings?.misiSekolah ? settings.misiSekolah.split('\n') : []).map((misi, idx) => (
                     <li key={idx} className="flex items-start gap-3 text-slate-600">
                       <CheckCircle2 className="text-green-500 shrink-0 mt-0.5" size={20} />
-                      <span>{misi.replace(/^\d+\.\s*/, 'Religius, Sehat, Inovatif dan Berprestasi')}</span>
+                      <span>{misi.replace(/^\d+\.\s*/, '')}</span>
                     </li>
                   ))}
                 </ul>
