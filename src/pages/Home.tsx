@@ -198,7 +198,7 @@ export default function Home() {
               </div>
               
               <div>
-                <h4 className="text-lg font-semibold text-slate-800 mb-3">Misi: Religius, Sehat, Inovatif dan Berprestasi</h4>
+                <h4 className="text-lg font-semibold text-slate-800 mb-3">Misi: Mewujudkan Generasi Religius, Sehat, Inovatif dan Berprestasi</h4>
                 <ul className="space-y-3">
                   {(settings?.misiSekolah ? settings.misiSekolah.split('\n') : []).map((misi, idx) => (
                     <li key={idx} className="flex items-start gap-3 text-slate-600">
