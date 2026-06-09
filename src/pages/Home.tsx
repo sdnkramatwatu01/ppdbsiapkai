@@ -57,9 +57,9 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-5xl md:text-6xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6"
             >
-              H.E.B.A.T <br className="hidden md:block" />
+              Membangun Generasi <br className="hidden md:block" />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-500">
-                Hidup dengan Etika Berakhlak dan Berprestasi
+                Cerdas & Berkarakter
               </span>
             </motion.h1>
             
@@ -69,7 +69,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg md:text-xl text-slate-600 mb-10 leading-relaxed"
             >
-              Bergabunglah bersama {settings?.namaSekolah || 'SD Negeri Kramatwatu 1'}. Kami berkomitmen memberikan pendidikan dasar terbaik dengan fasilitas modern dan tenaga pendidik profesional.
+              Bergabunglah bersama {settings?.namaSekolah || 'SDN Harapan Bangsa'}. Kami berkomitmen memberikan pendidikan dasar terbaik dengan fasilitas modern dan tenaga pendidik profesional.
             </motion.p>
             
             <motion.div
@@ -117,7 +117,7 @@ export default function Home() {
             {[
               {
                 icon: <BookOpen className="text-blue-500" size={32} />,
-                title: "Kurikulum Merdeka",
+                title: "Kurikulum Modern",
                 desc: "Menerapkan kurikulum merdeka belajar yang adaptif dengan perkembangan zaman dan teknologi."
               },
               {
@@ -157,27 +157,18 @@ export default function Home() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-<h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-  Sambutan Kepala Sekolah
-</h2>
-<div className="prose prose-lg text-slate-600">
-  {settings?.sambutanKepalaSekolah ? (
-    settings.sambutanKepalaSekolah
-      .split('\n')
-      .filter((paragraph) => paragraph.trim() !== '') // Membuang baris kosong
-      .map((paragraph, idx) => (
-        <p key={idx} className="mb-4">
-          {paragraph}
-        </p>
-      ))
-  ) : (
-    <p className="text-slate-400 italic">Belum ada sambutan dari Kepala Sekolah.</p> // Teks pengganti jika data kosong
-  )}
-</div>
-  ))}
+              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+                Sambutan Kepala Sekolah
+              </h2>
+              <div className="prose prose-lg text-slate-600">
+                {settings?.sambutanKepalaSekolah?.split('\n').map((paragraph, idx) => (
+                  <p key={idx} className="mb-4">
+                    {paragraph}
+                  </p>
+                ))}
                 <div className="flex items-center gap-4 mt-8">
                   <div className="w-16 h-16 rounded-full bg-slate-200 overflow-hidden">
-                    <img src={settings?.fotoKepalaSekolah || "https://6a270a0f494af3e820806ab2.imgix.net/WhatsApp%20Image%202026-06-09%20at%2001.20.31.jpeg"} alt="Kepala Sekolah" className="w-full h-full object-cover" />
+                    <img src={settings?.fotoKepalaSekolah || "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=256&auto=format&fit=crop"} alt="Kepala Sekolah" className="w-full h-full object-cover" />
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900">{settings?.namaKepalaSekolah || 'Kepala Sekolah'}</h4>
@@ -202,12 +193,12 @@ export default function Home() {
               <div className="mb-8">
                 <h4 className="text-lg font-semibold text-slate-800 mb-3">Visi</h4>
                 <p className="text-slate-600 italic bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                  "{settings?.visiSekolah || 'Terwujudnya peserta didik yang BERSIH (Berkarakter, Religius, Sehat, Inovatif, Hebat dalam Prestasi.'}"
+                  "{settings?.visiSekolah || 'Visi sekolah belum diatur.'}"
                 </p>
               </div>
               
               <div>
-                <h4 className="text-lg font-semibold text-slate-800 mb-3">Misi: Mewujudkan Generasi Religius, Sehat, Inovatif dan Berprestasi</h4>
+                <h4 className="text-lg font-semibold text-slate-800 mb-3">Misi</h4>
                 <ul className="space-y-3">
                   {(settings?.misiSekolah ? settings.misiSekolah.split('\n') : []).map((misi, idx) => (
                     <li key={idx} className="flex items-start gap-3 text-slate-600">
@@ -230,7 +221,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Alur Pendaftaran PPDB</h2>
             <p className="text-slate-400 max-w-2xl mx-auto text-lg">
-              Ikuti langkah-langkah mudah berikut untuk mendaftarkan putra/putri Anda di SD NEGERI KRAMATWATU 1.
+              Ikuti langkah-langkah mudah berikut untuk mendaftarkan putra/putri Anda di SDN Harapan Bangsa.
             </p>
           </div>
 
