@@ -57,9 +57,9 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-5xl md:text-6xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6"
             >
-              Membangun Generasi <br className="hidden md:block" />
+              H.E.B.A.T <br className="hidden md:block" />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-500">
-                Cerdas & Berkarakter
+                Hidup dengan Etika Berakhlak dan Berprestasi
               </span>
             </motion.h1>
             
@@ -69,7 +69,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg md:text-xl text-slate-600 mb-10 leading-relaxed"
             >
-              Bergabunglah bersama {settings?.namaSekolah || 'SDN Harapan Bangsa'}. Kami berkomitmen memberikan pendidikan dasar terbaik dengan fasilitas modern dan tenaga pendidik profesional.
+              Bergabunglah bersama {settings?.namaSekolah || 'SD Negeri Kramatwatu 1'}. Kami berkomitmen memberikan pendidikan dasar terbaik dengan fasilitas modern dan tenaga pendidik profesional.
             </motion.p>
             
             <motion.div
@@ -168,7 +168,7 @@ export default function Home() {
                 ))}
                 <div className="flex items-center gap-4 mt-8">
                   <div className="w-16 h-16 rounded-full bg-slate-200 overflow-hidden">
-                    <img src={settings?.fotoKepalaSekolah || "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=256&auto=format&fit=crop"} alt="Kepala Sekolah" className="w-full h-full object-cover" />
+                    <img src={settings?.fotoKepalaSekolah || "https://6a270a0f494af3e820806ab2.imgix.net/WhatsApp%20Image%202026-06-09%20at%2001.20.31.jpeg"} alt="Kepala Sekolah" className="w-full h-full object-cover" />
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900">{settings?.namaKepalaSekolah || 'Kepala Sekolah'}</h4>
@@ -221,7 +221,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Alur Pendaftaran PPDB</h2>
             <p className="text-slate-400 max-w-2xl mx-auto text-lg">
-              Ikuti langkah-langkah mudah berikut untuk mendaftarkan putra/putri Anda di SDN Harapan Bangsa.
+              Ikuti langkah-langkah mudah berikut untuk mendaftarkan putra/putri Anda di SD NEGERI KRAMATWATU 1.
             </p>
           </div>
 
