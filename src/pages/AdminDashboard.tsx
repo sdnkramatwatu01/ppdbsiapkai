@@ -309,7 +309,7 @@ export default function AdminDashboard() {
     doc.line(20, startY + lineHeight * 7, 190, startY + lineHeight * 7);
     doc.setFontSize(10);
     doc.setTextColor(100, 100, 100);
-    doc.text(`Kartu ini adalah bukti sah pendaftaran PPDB ${settings?.namaSekolah || 'Sekolah'}.`, 105, startY + lineHeight * 8, { align: "center" });
+    doc.text(`Kartu ini adalah bukti sah pendaftaran SPMB ${settings?.namaSekolah || 'Sekolah'}.`, 105, startY + lineHeight * 8, { align: "center" });
     doc.text(`Dicetak pada: ${new Date().toLocaleString()}`, 105, startY + lineHeight * 8.5, { align: "center" });
 
     // Box around everything
@@ -317,7 +317,7 @@ export default function AdminDashboard() {
     doc.setLineWidth(1);
     doc.rect(10, 10, 190, 150);
 
-    doc.save(`Kartu_PPDB_${student['No Pendaftaran']}.pdf`);
+    doc.save(`Kartu_SPMB_${student['No Pendaftaran']}.pdf`);
   };
 
   const filteredData = useMemo(() => {
