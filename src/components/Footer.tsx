@@ -49,7 +49,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-blue-500 shrink-0" />
-                <span>{settings?.email || 'sdnkraatwatu01@gmail.com'}</span>
+                <span>{settings?.email || 'sdnkratwatu01@gmail.com'}</span>
               </li>
             </ul>
           </div>
@@ -57,7 +57,7 @@ export default function Footer() {
         
         <div className="mt-12 pt-8 border-t border-slate-800 text-center text-sm text-slate-500 flex flex-col md:flex-row justify-between items-center">
           <p>&copy; {new Date().getFullYear()} {settings?.namaSekolah || 'SD NEGERI KRAMATWATU 1'}. Hak Cipta Dilindungi.</p>
-          <p className="mt-2 md:mt-0">Sistem PPDB Online Terintegrasi</p>
+          <p className="mt-2 md:mt-0">Sistem SPMB Online Terintegrasi</p>
         </div>
       </div>
     </footer>
