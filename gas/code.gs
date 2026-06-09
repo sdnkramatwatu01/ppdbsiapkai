@@ -32,7 +32,7 @@ const DEFAULT_SETTINGS = {
   alamat: "Jalan Raya Serang Cilegon Km.8 No.88 Kramatwatu",
   telepon: "+62 812-1801-0605 -Bu Maratun Solehah",
   email: "sdnkramatwatu01@gmail.com",
-  deskripsi: "Mencetak generasi penerus bangsa yang cerdas, berakhlak mulia, dan siap menghadapi tantangan masa depan dengan pendidikan berkualitas.",
+  deskripsi: "H.E.B.A.T - Hidup dengan Etika, Berakhlak dan Berprestasi.",
   statusPendaftaran: "Buka",
   formFields: JSON.stringify(DEFAULT_FORM_FIELDS)
 };
