@@ -200,7 +200,7 @@ export default function Home() {
               <div>
                 <h4 className="text-lg font-semibold text-slate-800 mb-3">Misi</h4>
               <p className="text-slate-600 italic bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                  "{settings?.visiSekolah || 'Mewujudkan generasi yang Religius, Sehat, inovatif dan Berprestasi.'}"
+                  "{settings?.misiSekolah || 'Mewujudkan generasi yang Religius, Sehat, inovatif dan Berprestasi.'}"
                 </p>
               </div>
       </section>
