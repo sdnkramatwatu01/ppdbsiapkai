@@ -158,7 +158,7 @@ export default function Home() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-                Sambutan Kepala Sekolah
+                Kepala Sekolah
               </h2>
               <div className="prose prose-lg text-slate-600">
                 {settings?.sambutanKepalaSekolah?.split('\n').map((paragraph, idx) => (
@@ -193,7 +193,7 @@ export default function Home() {
               <div className="mb-8">
                 <h4 className="text-lg font-semibold text-slate-800 mb-3">Visi</h4>
                 <p className="text-slate-600 italic bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                  "{settings?.visiSekolah || 'Visi sekolah belum diatur.'}"
+                  "{settings?.visiSekolah || 'Terwujudnya peserta didik yang BERSIH (Berkarakter, Religius, Sehat, Inovatif, Hebat dalam prestasi).'}"
                 </p>
               </div>
               
@@ -203,7 +203,7 @@ export default function Home() {
                   {(settings?.misiSekolah ? settings.misiSekolah.split('\n') : []).map((misi, idx) => (
                     <li key={idx} className="flex items-start gap-3 text-slate-600">
                       <CheckCircle2 className="text-green-500 shrink-0 mt-0.5" size={20} />
-                      <span>{misi.replace(/^\d+\.\s*/, '')}</span>
+                      <span>{misi.replace(/^\d+\.\s*/, 'Mewujudkan Genarasi yang Religius, Sehat, Inovatif dan Berprestasi')}</span>
                     </li>
                   ))}
                 </ul>
