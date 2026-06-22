@@ -198,9 +198,9 @@ export default function Home() {
               </div>
               
                   <div className="mb-8">
-                <h4 className="text-lg font-semibold text-slate-800 mb-3">Visi</h4>
+                <h4 className="text-lg font-semibold text-slate-800 mb-3">Misi</h4>
                 <p className="text-slate-600 italic bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                  "{settings?.visiSekolah || 'Terwujudnya peserta didik yang BERSIH (Berkarakter, Religius, Sehat, Inovatif, Hebat dalam prestasi).'}"
+                  "{settings?.misiSekolah || 'Mewujudkan Generasi Religius, Sehat, Inovatif dan Berprestasi.'}"
                 </p>
               </div>
             </motion.div>
